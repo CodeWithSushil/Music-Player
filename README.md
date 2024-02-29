@@ -1,3 +1,3 @@
-## My Music Player
+## Music Player
 
 * Simple Music Player in HTMl, CSS and JavaScript.

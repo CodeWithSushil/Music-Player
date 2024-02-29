@@ -1,115 +1,131 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html, body{
-width:100%;
-height:100%;
-overflow-x:hidden;
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
+
 .container {
-width:100%;
-min-height:100vh;
-background:#ddd;
-padding:10px;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
+    width: 100%;
+    min-height: 100vh;
+    background: #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
-.musicBox h2{
-text-align:center;
-text-transform:capitalize;
-margin-bottom:30px;
-font-family:sans-serif;
+
+.musicBox h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: sans-serif;
 }
+
 .musicBox {
-width:100%;
-background:#fff;
-border-radius:8px;
-padding:20px;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-box-shadow:2px 2px 20px rgba(0,0,0,0.25);
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
 }
+
 .musicBox #image {
-width:280px;
-height:280px;
-border-radius:50%;
-object-fit:cover;
-box-shadow:2px 2px 30px 4px rgba(0,0,0,0.45);
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 30px 4px rgba(0, 0, 0, 0.45);
 }
-.anime{
-animation:rotate 4s linear infinite;
+
+.anime {
+    animation: rotate 4s linear infinite;
 }
-@keyframes rotate{
-100%{
-transform:rotate(360deg);
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
 }
-}
+
 .musicBox .seekBar {
-width:90%;
-margin:10px auto;
-border-radius:10px;
-text-align:center;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    text-align: center;
 }
-.musicBox p{
-color:#000;
-font-size:18px;
-margin-top:30px;
-text-align:center;
-font-weight:999;
-letter-spacing:1px;
-word-spacing:6px;
-font-family:sans-serif;
-text-transform:capitalize;
+
+.musicBox p {
+    color: #000;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 999;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    font-family: sans-serif;
+    text-transform: capitalize;
 }
+
 .musicBox p span {
-color:#444;
-font-size:16px;
-font-weight:500;
-letter-spacing:1px;
-word-spacing:6px;
-line-height:3;
-font-family:serif;
-text-align:center;
-text-transform:capitalize;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    line-height: 3;
+    font-family: serif;
+    text-align: center;
+    text-transform: capitalize;
 }
+
 .seekBar #seek {
-width:100%;
-padding:10px;
-accent-color:black;
+    width: 100%;
+    padding: 10px;
+    accent-color: black;
 }
-.musicBox .btns{
-padding:10px;
+
+.musicBox .btns {
+    padding: 10px;
 }
-.btns button{
-background:#fff;
-outline:none;
-border:none;
-font-size:16px;
-font-weight:bold;
-padding:8px 16px;
-margin:0px 5px;
-cursor:pointer;
-border-radius:4px;
-transition: 0.2s linear;
-box-shadow:0px 0px 0px 1px rgba(0,0,0,0.95);
+
+.btns button {
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin: 0px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.95);
 }
+
 .btns button:hover {
-font-weight:normal;
-box-shadow:-3px -3px 0px 2px #333,3px 3px 0px 2px #333;
+    font-weight: normal;
+    box-shadow: -3px -3px 0px 2px #333, 3px 3px 0px 2px #333;
 }
-#volume{
-width:55%;
-margin:10px auto;
-accent-color:black;
+
+#volume {
+    width: 55%;
+    margin: 10px auto;
+    accent-color: black;
 }
+
 .active {
-box-shadow:-3px -3px 0px 2px #333,3px 3px 0px 2px #333;
+    box-shadow: -3px -3px 0px 2px #333, 3px 3px 0px 2px #333;
 }

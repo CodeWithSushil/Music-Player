@@ -36,7 +36,7 @@ play.addEventListener('click', () => {
         document.getElementById("image").classList.add("anime");
     } else if (song.ended) {
         song.currentTime = 0;
-        //document.getElementById('image').classList.remove("anime")
+        document.getElementById('image').classList.remove("anime")
     } else {
         song.pause();
         play.innerHTML = "Play";
